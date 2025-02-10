@@ -4,7 +4,6 @@
     {
       "name": "mylang",
       "camelcase": "Mylang",
-      "title": "Mylang",
       "scope": "source.mylang",
       "file-types": [
         "mylang"
