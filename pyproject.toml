@@ -14,16 +14,16 @@ classifiers = [
   "Typing :: Typed",
 ]
 authors = [{ name = "davidevofficial", email = "davidevufficial@gmail.com" }]
-requires-python = ">=3.10"
-license.text = "none"
+requires-python = ">=3.9"
+license.text = "MIT"
 readme = "README.md"
 
 [project.urls]
 Homepage = "https://github.com/davidevofficial/tree-sitter-mylang"
 
 [project.optional-dependencies]
-core = ["tree-sitter~=0.24"]
+core = ["tree-sitter~=0.22"]
 
 [tool.cibuildwheel]
-build = "cp310-*"
+build = "cp39-*"
 build-frontend = "build"
