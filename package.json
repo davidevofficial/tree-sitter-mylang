@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Mylang grammar for tree-sitter",
   "repository": "https://github.com/davidevofficial/tree-sitter-mylang",
-  "license": "none",
+  "license": "MIT",
   "author": {
     "name": "davidevofficial",
     "email": "davidevufficial@gmail.com"

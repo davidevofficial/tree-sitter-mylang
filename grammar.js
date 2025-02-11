@@ -1,3 +1,12 @@
+/**
+ * @file Mylang grammar for tree-sitter
+ * @author davidevofficial <davidevufficial@gmail.com>
+ * @license MIT
+ */
+
+/// <reference types="tree-sitter-cli/dsl" />
+// @ts-check
+
 module.exports = grammar({
   name: 'mylang',
   extras: ($) => [$.comment, $._whitespace_char],
